@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Yo!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
 <body>
 <div class="container text-center">
-    <h1>(っ◔◡◔)っ ℙ𝕒𝕤𝕤𝕨𝕠𝕣𝕕 𝔾𝕖𝕟𝕖𝕣𝕒𝕥𝕠𝕣</h1>
-    <form action="{% url 'password' %}">
+    <h1 class="alert alert-info">(っ◔◡◔)っ ℙ𝕒𝕤𝕤𝕨𝕠𝕣𝕕 𝔾𝕖𝕟𝕖𝕣𝕒𝕥𝕠𝕣</h1>
+    <form action="{% url 'password' %}" class="alert alert-success">
         <select name="length">
             <option value="6">6 Character Long</option>
             <option value="7">7 Characters Long</option>
